@@ -1,0 +1,26 @@
+{
+    "name": "joeniu/laravel-oauth2-server",
+    "description": "A Laravel bridge for thephpleague/oauth2-server",
+    "require": {
+        "league/oauth2-server": "dev-master"
+    },
+    "repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/joeNiu/laravel-oauth2-server.git"
+		}
+	],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Niu",
+            "email": "jsph.niu@gmail.com"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"joeNiu\\OAuth2Server\\": "src/"
+		}
+	},
+    "minimum-stability": "dev"
+}
